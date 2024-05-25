@@ -35,5 +35,9 @@ Finally, enable it in your `config.toml` by adding the following line:
 main.plugins.clock.enabled = true
 ```
 
-Restart the pwnagotchi service to refresh the dashbaord with the date and time enabled:  `sudo systemctl restart pwnagotchi`
+Restart the pwnagotchi service to refresh the dashbaord with the date and time enabled:  
+
+```
+sudo systemctl restart pwnagotchi
+```
 
