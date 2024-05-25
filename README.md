@@ -1,11 +1,21 @@
-# Pwnagotchi Clock/Calendar
+# pwnagotchi Date and Time
+Display the date and time on your pwnagotchi dashboard. <br>
+Requires an RTC module!
 
-![pic](https://i.imgur.com/iEbByAX.png)
+### with memtemp enabled<br>
+  - ![image](https://github.com/BigPawTate/pwnagotchi-datetime/assets/116862308/5227b2c8-3c9d-4a35-9184-5292abfeab92)
+
+### no memtemp<br>
+  - ![image](https://github.com/BigPawTate/pwnagotchi-datetime/assets/116862308/2c290cdb-0abd-47ee-bcab-9ab632f4e2fa)
+
+
+
 
 ## Installation
 
 To install, first set your directory for custom plugins in your config file.  
-Find or add `main.custom_plugins = "/custom/plugin/directory"` Initially, it may be empty.
+The default directory for jayofelony v2.8.9 is `/etc/pwnagotchi/custom-plugins/` <br>
+Find or add `main.custom_plugins = "/etc/pwnagotchi/custom-plugins/"` Initially, it may be empty.
 
 After that, add `clock.py` to that folder.
 Finally, enable it in your config.toml by adding the following line:
@@ -14,12 +24,3 @@ Finally, enable it in your config.toml by adding the following line:
 main.plugins.clock.enabled = true
 ```
 
-## FAQ
-
-### The plugin doesn't work!
-
-Bother me in my [discord server](https://discord.gg/VuhvYRz) (I am Logandev\_)
-
-### Does it overlap memtemp?
-
-If memtemp is enabled, it moves the clock over to the side, so it doesn't overlap memtemp.
