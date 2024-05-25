@@ -1,5 +1,5 @@
 # pwnagotchi Date and Time
-Display the date and time on your pwnagotchi dashboard. <br>
+Display the date and time on your pwnagotchi waveshare v4 dashboard. <br>
 Requires an RTC module!
 
 ### with memtemp enabled<br>
