@@ -37,5 +37,7 @@ class PwnClock(plugins.Plugin):
 
     def on_ui_update(self, ui):
         now = datetime.datetime.now()
-        time_rn = now.strftime("%d %b %y\n%H:%M")
+        time_rn = now.strftime("%d%b%Y\n%H:%M")
+        # Convert the abbreviated month to uppercase, comment out if you prefer lowercase
+        time_rn = time_rn.replace(now.strftime("%b"), now.strftime("%b").upper())
         ui.set('clock', time_rn)
