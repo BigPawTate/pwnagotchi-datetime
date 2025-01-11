@@ -12,7 +12,7 @@ Requires an RTC module!
   - ![image](https://github.com/BigPawTate/pwnagotchi-datetime/assets/116862308/2c290cdb-0abd-47ee-bcab-9ab632f4e2fa)
 
 ### Observe the time your pwnagotchi went offline
-  - e-ink display will maintain the time when it loses power
+  - e-ink display will show the time when pwnagotchi lost power
 
 
 ## Installation
